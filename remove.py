@@ -5,8 +5,8 @@ from rembg import remove
 from PIL import Image
 
 # Define input and output folder paths
-input_folder = "/P:/Flower/Black_Cumin"
-output_folder = "/content/sample_data/Black_Cumin_No_BG"
+input_folder = r"P:\Flower\Black_Cumin"
+output_folder = r"P:\Flower\Black_Cumin_NoBG"
 
 # Ensure output folder exists
 os.makedirs(output_folder, exist_ok=True)
